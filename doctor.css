@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arvo', serif;
+   height: 100%;
+   width: 100%;
+   position: fixed;
+}
+
+html, body,
+{
+  margin: auto;
+}
+
+footer
+{
+  width: 100%;
+  height: 10%;
+  bottom: 0;
+  left: 0;
+  position:fixed;
+  text-align: right;
+}
+
+.Titre
+{
+margin:auto;
+margin-top: 15px;
+text-align: center;
+}
+
+.grid
+{
+  position: absolute;
+}
+
+.footer {
+  height: 20%;
+  bottom: 0;
+}
+
+
+.row
+{
+display: flex;
+flex-direction: row;
+flex: 1;
+width: 100%
+}
+
+ img
+ {
+   width: 155px;
+   height: 400px;
+   margin-left: 43%;
+   margin-top: 9%;
+   position: relative;
+ }
+
+
+.col
+{
+  display : flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.texte
+{
+font-family: 'ARVO', serif;
+color: black;
+height: 10%;
+position: relative;
+top: 30%;
+left: 60%;
+width: 30%;
+}
+
+.circle
+{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: #373D40;
+  opacity: 0.7;
+  border-radius: 100%;
+  transition: background-color 1s;
+}
+
+.circle:hover
+{
+  background-color: red;
+  opacity: 0,6;
+  transition: background-color 2s;
+
+}
+#epaule
+
+{
+  left: 43%;
+  top: 27%;
+  }
+
+#bras
+{
+  left: 52%;
+  top: 37%;
+}
+
+#hanche
+{
+  left: 51%;
+  top: 44%;
+}
+
+#pied
+
+{
+left: 49%;
+top: 66%;
+}
+
+#jambe
+
+{
+left: 46%;
+top : 57%
+}
+
+#main
+
+{
+left: 43%;
+top: 45%;
+}
